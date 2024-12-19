@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    padding: 0px 5% 2.5px 3%;
+    height: 60px;
+    background-color: #efebe5;
+    color: #623e2a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo{
+    height: 60px;
+    width: 260px;
+}
+.logo{
+    background-image: url(images/Quantum.png);
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+.navcontent ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.navcontent ul li a{
+    color: #623e2a;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+}
+.hero-section video{
+    position: relative;
+}
+.imgtext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 300;
+    margin-top: 200px;
+}
+.imgtext p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+.imgtext h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
+    color: #fff;
+    font-size: 100px;
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #fff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #623e2a;
+}
+/*--------------------------------About------------------------------------*/
+#About{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f4f1ed;
+}
+.container{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 60%;
+}
+.image-section{
+    float: right;
+    width: 30%;
+}
+.image-section img{
+    width: 90%;
+    height: auto;
+}
+.content-section .titel{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #623e2a;
+}
+.content-section .content h1{
+    color: #623e2a;
+    margin-top: 30px;
+}
+.content-section .content p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: #623e2a;
+    font-size: 19px;
+}
+/*--------------------------------------Services---------------------------------*/
+#Services{
+    background-color: #efebe5;
+}
+.sub-titel{
+    color: #623e2a;
+    font-size: 50px;
+    text-align: center;
+}
+.sub-para{
+    color: #623e2a;
+    font-size: 25px;
+    text-align: center;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background: #f4f1ed;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #623e2a;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #623e2a;
+}
+.services-list div P{
+    color: #623e2a;
+    font-size: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color : #623e2a;
+    font-size: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background: #fff;
+    transform: translateY(-10PX);
+}
+/*----------------------------------Clients-------------------------------*/
+#Clients{
+    background-color: #efebe5;
+    height: 600px;
+}
+.sub-titel{
+    color: #623e2a;
+    font-size: 50px;
+    text-align: center;
+}
+.sub-para{
+    color: #623e2a;
+    font-size: 25px;
+    text-align: center;
+}
+/*------------------------------------Blogs--------------------------------*/
+#Blogs{
+    background-color: #623e2a;
+}
+.blog-section img{
+    position: relative;
+}
+.blog-text{
+    position: absolute;
+    
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 200px;
+}
+.blog-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #efebe5;
+    font-size: 30px;
+}
+.blog-text h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
+    color: #efebe5;
+    font-size: 100px;
+}
+/*--------------------------------------contact---------------------------------------*/
+#Contact{
+    background-color: #623e2a;
+    height: 600px;
+    width: 100%;
+}
+.sub3-titel{
+    color: #f4f1ed;
+    font-size: 50px;
+}
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: #f4f1ed;
+}
+.contect-left{
+    border: 1px solid #f4f1ed;
+    height: 250px;
+    width: 25%;
+    padding: 20px;
+}
+.contect-left p{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.letstalk-center{
+    border: 1px solid #f4f1ed;
+    height: 250px;
+    width: 25%;
+    padding: 20px;
+}
+.social-right{
+    border: 1px solid #f4f1ed;
+    height: 250px;
+    width: 25%;
+    padding: 20px;
+}
+.social-right h3{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-right p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-right a{
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #f4f1ed;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-right a:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+form input, form textarea{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #fff;
+    padding: 5px;
+    margin: 2px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form textarea{
+    height: 100px;
+}
+form .btn2{
+    padding: 4px 6px;
+    font-size: 18px;
+    margin-top: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.letstalk-center form i{
+    margin-top: 2px;
+    padding-right: 5px;
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #462a1a;
+    font-weight: 300;
+    color: #fff;
+}
